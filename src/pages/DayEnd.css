@@ -1,0 +1,403 @@
+.salesmaindend
+{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+
+}
+.fieldsdend
+{
+    display: flex;
+    justify-content: space-around;
+    padding:10px 10px 10px 10px ;
+}
+.salesheaderdend
+{
+    height: 670px;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:white;
+}
+.salesselectlabeldend
+{
+    margin-right: 190px;
+}
+.fromlabeldend
+{
+    margin-right: 170px;
+}
+.filterbdend
+{
+    margin-right: 100px;
+    background-color: rgb(34, 7, 63);
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    border-radius:  5px 5px;
+    box-sizing: border-box;
+    
+}
+.tolabeldend
+{
+    margin-right: 190px;
+}
+
+.salesselectdend
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 250px; 
+    height: 30px;
+    border: 1px ;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.salesheader2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.reportsalesend
+{
+    width: 100%;
+  
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+}
+.alertbox
+{
+    padding: 50px;
+  background-color: #cfe2ff;
+height: auto;
+   font-family:Tahoma;
+    margin-top: 80px;
+    font-size: 30px;
+   
+}
+.reportpurchases
+{
+    width: 400px;
+    height: 500px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportsalesreturn
+{
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportpurchasereturn
+{
+    
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headingsale
+{
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.headingpurchase{
+    margin-top: 20px;
+    margin-right: 240px;
+}
+.headingsalereturn
+{
+    
+    padding-top: 18px;
+    margin-right: 180px;
+}
+.headingpurchasereturn
+{
+    padding-top: 18px;
+    margin-right: 130px;
+
+}
+.dayendcol1
+{
+    padding-top:80px;
+    padding-left: 20px;
+    display: flex;
+   
+}
+.dayendform1
+{
+    width: 145px;
+    height: 32px;
+}
+.colh4
+{
+    font-weight: 5px;
+    font-size: 22px;
+    display: flex;
+    
+    
+}
+
+.classparticular
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.phead
+{
+    padding-left: 10px;
+}
+.classphead2
+{
+    display: flex;
+    
+}
+.classdatevalue
+{
+    padding-left: 25px;
+}
+.inputs
+{
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color:black;
+}
+.tablecal, .tablecal th,.tablecal td
+{
+    border: 1px solid black;
+}
+.tablecal td
+{
+    
+    width: 150px;
+}
+.tableclass
+{ 
+    text-align: left;
+    width: 400px;
+    margin-left: 35px;
+
+}
+.modalredend.modal-dialog{
+    display: flex;
+    justify-content: flex-end;
+  
+
+  
+}
+
+.mods
+{
+    display: flex;
+    justify-content:end;
+}
+
+.tableclass,.tableclass th,.tableclass td
+{
+    border: 1px solid black
+}
+
+.tablecal
+{
+    margin-left: 15px;
+}
+.headingmonthe
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: -50PX;
+}
+
+@media screen and (max-width:992px) {
+
+    .fromlabeldend
+    {
+       margin-left: -50px;
+    }
+    .tolabeldend
+    {
+       margin-left: -50px;
+    }
+   
+    
+    .salesheader2{
+      display: inline;
+    }
+    .salesheaderdend{
+      display: inline;
+    }
+    .salesmaindend {
+        height: 300px;
+      display: inline;
+    }
+    .fieldsdend 
+    {
+        display: inline;
+        height: 300px;
+    }
+    .modalredend .modal-dialog {
+        max-width: 500px;
+        margin:  auto;
+   margin-left: 180px;
+        padding-top:55px ;
+      }
+      .tableclass
+      {
+          width: 100%;
+      }
+      .modal-dialog
+      {
+        background: white;
+      }
+      .modalredend
+      {
+        background: white;
+      }
+    
+  }
+   @media screen and (min-width: 992px) {
+    .modalredend .modal-dialog {
+     
+     padding-top: 25px;
+ 
+      
+    }
+    .fieldsdend
+{
+    display: flex;
+    justify-content:start ;
+    padding:10px 10px 10px 10px ;
+}
+    .tableclass
+    {
+        width: 100%;
+    }
+    .salesheader2{
+        width: 100%;
+      }
+      .salesheaderdend{
+       width: 100%;
+      }
+      .salesmaindend {
+        width: 100%;
+      }
+  
+      .classparticular
+      {
+          display: flex;
+         justify-content: space-around;
+      
+
+       
+      }
+      .fromlabeldend
+      {
+         margin-left: -50px;
+      }
+      .tolabeldend
+      {
+         margin-left: -50px;
+      }
+      .modal-dialog
+      {
+        background: white;
+      }
+      .modalredend
+      {
+        background: white;
+      }
+    
+    
+  } 
+  
+
+  /* Extra Small <=576 */
+  @media screen and (max-width:558px) {
+    .salesheaderdend {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      zoom: 55%;
+  
+    }
+   
+    .salesmaindend
+  {
+    width: 100%;
+    /* display:inline-block; */
+  }
+ 
+    .salesheader2
+    {
+        zoom: 38%;
+        width: 100%;
+      
+      /* display: inline-block; */
+    
+    }
+    .fieldsdend
+    {
+        width: 100%;
+        /* display: inline-block;
+        height: 500px; */
+    }
+    .tableclass
+    {
+        width: 100%;
+    }
+
+ 
+  .modalredend .modal-dialog {
+    width: 80%;
+    margin-left:57px;
+   
+    
+   
+  }
+  .modal-dialog
+  {
+    background: white;
+  }
+  .modalredend
+  {
+    background: white;
+  }
+
+  .headingmonthe{
+ margin-left: -125px; 
+width: 100%;
+
+    }
+  .classparticular
+  {
+    width: 95%;
+    zoom: 95%;
+      /* display: flex;
+  justify-content: space-between;
+    margin-right: 13px; */
+  } 
+
+ 
+}
+
+

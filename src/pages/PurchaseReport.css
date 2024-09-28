@@ -1,0 +1,276 @@
+.salesmain
+{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+
+}
+.fields
+{
+    display: flex;
+    justify-content:stretch;
+    padding:10px 10px 10px 10px ;
+}
+.salesheader
+{
+    height: 670px;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:white;
+}
+
+.fromlabel
+{
+    margin-right: 200px;
+}
+
+.filterb
+{
+    
+    margin-right: 100px;
+    background-color: rgb(34, 7, 63);
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    border-radius:  5px 5px;
+    box-sizing: border-box;
+    
+    
+}
+.filterbs
+{
+    
+    margin-left: -90px;
+    background-color: rgb(34, 7, 63);
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    border-radius:  5px 5px;
+    box-sizing: border-box;
+    
+    
+}
+
+.tolabel
+{
+    margin-right: 230px;
+}
+.salesselect
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 250px; 
+    height: 30px;
+    border: 1px ;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.salesheader2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.reportsales
+{
+    width: 100%;
+    height: 500px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+}
+.alertbox
+{
+    padding: 50px;
+
+    color: #084298;
+  background-color: #cfe2ff;
+  border-color: #b6d4fe;
+   font-family:Tahoma;
+    margin-top: 80px;
+    height: 230px;
+    font-size: 30px;
+   
+}
+.reportpurchases
+{
+    width: 400px;
+    height: 500px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportsalesreturn
+{
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportpurchasereturn
+{
+    
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headingsale
+{
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.headingpurchase{
+    margin-top: 20px;
+    margin-right: 240px;
+}
+.headingsalereturn
+{
+    
+    padding-top: 18px;
+    margin-right: 180px;
+}
+.headingpurchasereturn
+{
+    padding-top: 18px;
+    margin-right: 130px;
+
+}
+.dayendcol1
+{
+    padding-top:80px;
+    padding-left: 20px;
+    display: flex;
+   
+}
+.dayendform1
+{
+    width: 145px;
+    height: 32px;
+}
+.colh4
+{
+    font-weight: 5px;
+    font-size: 22px;
+    display: flex;
+    
+    
+}
+.classparticular
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.phead
+{
+    padding-left: 10px;
+}
+.classphead2
+{
+    display: flex;
+    
+}
+.classdatevalue
+{
+    padding-left: 25px;
+}
+.inputs
+{
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color:black;
+}
+.tablecal, .tablecal th,.tablecal td
+{
+    border: 1px solid black;
+}
+.tablecal td
+{
+    
+    width: 150px;
+}
+.tableclass
+{ 
+    text-align: left;
+    width: 400px;
+    margin-left: 35px;
+
+}
+
+
+
+.tableclass,.tableclass th,.tableclass td
+{
+    border: 1px solid black
+}
+
+.tablecal
+{
+    margin-left: 15px;
+}
+@media screen and (max-width:992px) {
+
+ 
+    
+    .salesheader2{
+      display: inline;
+    }
+    .salesheader{
+      display: inline;
+    }
+    .salesmain {
+        height: 300px;
+      display: inline;
+    }
+    .fields 
+    {
+        display: inline;
+        height: 300px;
+    }
+  }
+  
+  /* Extra Small <=576 */
+  @media screen and (max-width:616px) {
+    .salesheader {
+      display: none;
+  
+    }
+    .salesmain
+  {
+  
+    display:inline-block;
+  }
+    .salesheader2
+    {
+      display: inline-block;
+    
+    }
+    .fields
+    {
+        display: inline-block;
+        height: 500px;
+    }
+    .tableclasss th,
+    .tableclasss td {
+      padding: 1px;
+    }
+    
+  }

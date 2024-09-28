@@ -1,0 +1,374 @@
+.salesmainday
+{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+
+}
+.filterday{
+    display:inline;
+    justify-content:start;
+    
+}
+.salesselectday
+{
+    margin-left: 10px;
+    
+}
+.filtertday
+{
+margin-left: 10px;
+    background-color: rgb(34, 7, 63);
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    border-radius:  5px 5px;
+    box-sizing: border-box;
+    
+}
+
+
+.fieldsday
+{
+    
+    display: flex;
+    justify-content:space-between;
+    padding:10px 10px 10px 10px ;
+}
+.salesheaderday
+{
+    zoom: 100%;
+    height: 670px;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:white;
+  
+}
+.fromlabelday
+{
+    margin-right: 80px;
+}
+.tolabelday
+{
+    margin-right: 100px;
+}
+.salesselectlabelday
+{
+    margin-right: 190px;
+}
+
+.fromtoday{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+ 
+}
+
+
+/* .salesselectday
+{
+    margin-top: 10px;
+    margin-right: 150px;
+    width: 150px; 
+    height: 30px;
+    border: 1px ;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+} */
+.modss
+{
+    display: flex;
+    justify-content:end;
+}
+.salesheader2day
+{
+    zoom: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.reportsalesday
+{
+    width: max-content;
+    height:max-content;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1.5px 0px 0px rgba(0.1, 0.1, 0.1, 0.1), 0px 0px 1.5px 1px rgba(0.1, 0.1, 0.1, 0.1);
+    
+}
+
+.reportpurchasesday
+{
+    width: 400px;
+    height: 500px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportsalesreturnday
+{
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reportpurchasereturnday
+{
+    
+    width: 390px;
+    height: 250px;
+    border: 1px ;
+    border-radius:  10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headingsaleday
+{
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.headingpurchaseday{
+    margin-top: 20px;
+    margin-right: 240px;
+}
+.headingsalereturnday
+{
+    
+    padding-top: 18px;
+    margin-right: 180px;
+}
+.headingpurchasereturnday
+{
+    padding-top: 18px;
+    margin-right: 130px;
+
+}
+.dayendcol1day
+{
+    padding-top:80px;
+    padding-left: 20px;
+    display: flex;
+   
+}
+.dayendform1day
+{
+    width: 145px;
+    height: 32px;
+}
+.colh4day
+{
+    font-weight: 5px;
+    font-size: 22px;
+    display: flex;
+    
+    
+}
+.classparticularday
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.pheadday
+{
+    padding-left: 10px;
+}
+.classphead2day
+{
+    display: flex;
+    
+}
+.classdatevalueday
+{
+    padding-left: 25px;
+}
+.inputsday
+{
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color:black;
+}
+.tablecalday, .tablecalday th,.tablecalday td
+{
+    border: 1px solid black;
+}
+.tablecalday td
+{
+    
+    width: 150px;
+}
+.tableclassday
+{ 
+    text-align: left;
+    width: 400px;
+    margin-left: 35px;
+
+}
+.modsday
+{
+    display: flex;
+    justify-content:end;
+}
+
+.tableclassday,.tableclassday th,.tableclassday td
+{
+    border: 1px solid black
+}
+
+.tablecalday
+{
+    margin-left: 15px;
+}
+@media screen and (max-width:992px) {
+
+    .reportsalesday
+    {
+        width: 100%;
+    }
+    .fromtoday{
+        display: flex;
+        justify-content:start;
+        padding-top: 10px;
+     
+    }
+    .salesheader2day{
+      display: flex;
+      flex-direction: column;
+    }
+    .salesheaderday{
+      display: inline;
+    }
+    .salesmainday {
+        height: 300px;
+      display:flex;
+    
+    }
+    .fieldsday{
+      display: block;
+    }
+    .filterday
+    {
+        display: inline;
+       
+    }
+   
+    .modalr .modal-dialog {
+        max-width: 500px;
+        margin:  auto;
+        margin-right: 100px;
+        padding-top:15px ;
+      }
+   
+  }
+  
+  /* Extra Small <=576 */
+  @media screen and (max-width:558px) {
+    .salesheaderday {
+      display: flex;
+  
+    }
+    .reportsalesday
+    {
+        width: max-content;
+    }
+    .salesmainday
+  {
+  
+    display:inline-block;
+  }
+ 
+    .salesheader2day
+    {
+      display: inline-block;
+    
+    }
+    .fieldsday
+    {
+        display: inline-block;
+        height: 500px;
+    }
+    
+  }
+  /* Styles for screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .modalr .modal-dialog {
+      max-width: 500px;
+      margin:  auto;
+      margin-right: 200px;
+      padding-top:15px ;
+    }
+    
+      .classparticularday
+      {
+          display: flex;
+         justify-content: space-around;
+       
+      }
+      .reportsalesday
+      {
+          width:100%;
+          height: max-content;
+      }
+     
+      
+    }
+  
+  
+ 
+  
+  /* Styles for screens smaller than 576px */
+  @media screen and (max-width: 575px) {
+    .modalr .modal-dialog {
+
+      max-width:80%;
+      margin:  auto;
+      margin-right:25px;
+    }
+  
+    
+    .headingmonthday{
+
+      margin-left: 180px;
+      }
+    .classparticularday
+    {
+        display: flex;
+    justify-content: space-between;
+      margin-left: 10px;
+    }
+    
+    .salesheaderday {
+        display: flex;
+        flex-direction: column;
+   width: 100%;
+   zoom:35%;
+  
+       
+    
+      }
+      .tablecalday
+      {
+        width: 5vw;
+      }
+      .salesheader2day
+      {
+      
+        width: 100%;
+      }
+     
+  }
+
+  
