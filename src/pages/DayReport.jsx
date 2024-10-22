@@ -32,7 +32,7 @@ function DayReport() {
     setError(null);
     setIsDataFetched(false); // Reset before fetching new data
 
-    axios.get('http://localhost:5162/api/Accounting/dayday', {
+    axios.get('http://thbsheer-001-site1.ktempurl.com/api/Accounting/dayday', {
       params: {
         startDate: fromDate,
         endDate: toDate

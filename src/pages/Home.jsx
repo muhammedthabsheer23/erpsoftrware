@@ -24,7 +24,7 @@ function Home() {
     setLoading(true);
     setError(null);
 
-    axios.get(`http://localhost:5162/api/AccountingController2/summary`)
+    axios.get(`http://thbsheer-001-site1.ktempurl.com/api/AccountingController2/summary`)
       .then((response) => {
         setDatas(response.data);
         setLoading(false);
@@ -70,7 +70,7 @@ function Home() {
   ];
 
   return (
-    <div>
+    <div >
       <Navbar />
       <Box height={30} sx={{ mt: "20px" }} />
       <Box sx={{ display: 'flex' }}>

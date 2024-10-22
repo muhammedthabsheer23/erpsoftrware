@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: `http://localhost:5162/api`
+    baseURL:`http://thbsheer-001-site1.ktempurl.com/api`
+  
 })
 
 api.interceptors.request.use(config => {

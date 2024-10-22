@@ -30,7 +30,7 @@ function PurchaseSummary() {
     setLoading(true);
     setError(null);
     setIsDataFetched(false); 
-    axios.get('http://localhost:5162/api/AccountingController2/productsales', {
+    axios.get('http://thbsheer-001-site1.ktempurl.com/api/AccountingController2/productsales', {
       params: {
         startDate: fromDate,
         endDate: toDate

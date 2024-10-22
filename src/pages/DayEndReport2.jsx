@@ -33,7 +33,7 @@ function DayEndReport2() {
     
       useEffect(() => {
         axios
-          .get("http://localhost:5162/api/Accounting/dayendreport")
+          .get("http://thbsheer-001-site1.ktempurl.com/api/Accounting/dayendreport")
           .then((response) => {
             setData(response.data); // Directly set the fetched data
             setLoading(false);

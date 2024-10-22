@@ -36,7 +36,7 @@ function MonthEndReport() {
       
       const fetchCombinedSummary = async (month, year) => {
         try {
-          const response = await axios.get(`http://localhost:5162/api/Accounting3/GetMonthSalesSummary`, {
+          const response = await axios.get(`http://thbsheer-001-site1.ktempurl.com/api/Accounting3/GetMonthSalesSummary`, {
             params: { month, year }
           });
           setCombinedSummary(response.data || { salesSummary: [], salesReturnSummary: [], mainsalesummary: [] });
